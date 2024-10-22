@@ -25,15 +25,15 @@ int main()
 	HashT.AddItem("Susan", "9 Mill Lane");
 	HashT.AddItem("Joe", "17A Green str");
 
-	//while (name != "quit")
-	//{
-		//cout << "Enter name for search ";
-		//cin >> name;
-		//if (name != "quit")
-		//{
-			//HashT.FindAddress(name);
-		//}
-	//}
+	while (name != "quit")
+	{
+		cout << "Enter name for search ";
+		cin >> name;
+		if (name != "quit")
+		{
+			HashT.FindAddress(name);
+		}
+	}
 	HashT.PrintItemsInIndex(2);
 
 	while (name != "quit")
@@ -47,8 +47,8 @@ int main()
 	}
 	HashT.PrintItemsInIndex(2);
 
-	//HashT.PrintTable();
+	HashT.PrintTable();
 
-	//HashT.PrintItemsInIndex(9);
-	//HashT.PrintItemsInIndex(8);
+	HashT.PrintItemsInIndex(9);
+	HashT.PrintItemsInIndex(8);
 }
