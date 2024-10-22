@@ -10,7 +10,7 @@ using namespace std;
 class hashClass
 {
 private:
-    static const int tableSize = 4;
+    static const int tableSize = 40;
 
     struct item
     {
